@@ -3,189 +3,106 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Aleksandr Koshkin
+    avatar: profile.jpg
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    email: "tinysnippets@gmail.com"
+    phone: +7 962 6894 199
+    website: "http://lemmethink.xyz"
+    linkedin: magniff
+    github: magniff
+    telegram: magniff
+    twitter: "@0xfabaceae"
+    stack-overflow: "3831764"
 
     languages:
       - idiom: English
+        level: Professional
+      - idiom: Russian
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
+      - item: Programming language theory
+      - item: Distributed systems design
       - item: Cooking
-        link:
 
 career-profile:
-    title: Career Profile
+    title: WHOAMI
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      In the past, I was a big proponent of dynamic languages, but over time I became disillusioned with them.
+      Several years ago I got acquainted with academic research on static typing, learned about Curry-Howard isomorphism, calculus of inductive constructions, and languages like Agda and Idris.
+      I like it when decisions are made with a solid, preferably academic foundation.
+      At the same time, it gives me pleasure to achieve clear and demonstrable results in the shortest possible time.
+      Now I run a small group of pythonista inside the department of Positive Technologies, that develops one of company's key products - MaxPatrolX.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MSc in Physics
+      university: Saint-Petersburg State University
+      time: 2006 - 2012
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        I was engaged in theoretical and numerical research of whisker nanocrystals and quantum dots of gallium arsenide.
+        At the end of my master program, we have successfully published a paper, that includes some of the results obtained (see publications).
 experiences:
+    - role: Junior Researcher
+      time: 2008-2010
+      company: SPBU
+      details:
+    - role: Developer
+      time: 2010 - 2012
+      company: TransAsia
+      details:
+    - role: Developer
+      time: 2012 - 2015
+      company: Potisive Technologies
+      details:
+    - role: Senior Software Developer
+      time: 2015 - 2017
+      company: Positive Technologies
+      details:
     - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+      time: 2017 - 2019
+      company: Positive Technologies
+      details:
+    - role: Team Leader
+      time: 2019 - 
+      company: Positive Technologies
+      details:
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Publications & Talks
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Computer Simulation of the Structure and Raman Spectra of GaAs Polytypes
+        link: "https://ur.booksc.eu/dl/22103651/49f6e3"
+        authors: M. B. Smirnov, A. O. Koshkin, S. V. Karpov, B. V. Novikov, A. N. Smirnov, I. V. Shtrohm, G. E. Cirlin , A. D. Bouravleuv , and Yu. B. Samsonenko.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Inside a PyPy JIT: is that even legal? (En)"
+        link: "https://www.youtube.com/watch?v=sD2BrBRip2U&t=307s&ab_channel=PyConSG"
+        conference: "PyCon APAC 2018"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Know and love your CPython in the name of the moon and great justice (Russian)"
+        link: "https://youtu.be/0_5_zEOo8kg"
+        conference: "PyCon Russia 2016"
 
+      - title: "Know and love your PyObject, you're a programmer after all (Russian)"
+        link: "https://youtu.be/pgrmGduJVrs"
+        conference: "Wargaming Meetup 2015"
+
+      - title: "PyPy internal structure is extremely straight forward (nope) (Russian)"
+        link: "https://youtu.be/6mlM7zxNkiE"
+        conference: "PiterPy 2018"
+
+      - title: "Know and love your yield. Coroutines and generators beyond for loop (re-upload) (Russian)"
+        link: "https://youtu.be/qkgFdFTo8rM"
+        conference: "PiterPy 2014"
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Buzzwords
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Python
+      - name: Haskell
+      - name: OCaml
+      - name: Rust
+      - name: HTML / CSS / Javascript / Typescript / Elm / PureScript
+      - name: Linux / Docker / Kubernetes
