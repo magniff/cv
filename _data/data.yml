@@ -34,11 +34,9 @@ sidebar:
 career-profile:
     title: WHOAMI
     summary: |
-      In the past, I was a big proponent of dynamic languages, but over time I became disillusioned with them.
-      Several years ago I got acquainted with academic research on static typing, learned about Curry-Howard isomorphism, calculus of inductive constructions, and languages like Agda and Idris.
-      I like it when decisions are made with a solid, preferably academic foundation.
-      At the same time, it gives me pleasure to achieve clear and demonstrable results in the shortest possible time.
-      Now I run a small group of pythonista inside the department of Positive Technologies, that develops one of company's key products - MaxPatrolX.
+        I currently work for **Positive Technologies** - one of the the market leaders in the area of information security. The product I am working on is **MaxPatrol SIEM** - a streaming, high load security events processing system - consists of dozens types of microservices, interconnected by the means of http/ws and AMQP queues. I have an extensive experience in organizing distributed systems and understand how consensus algorithms work (**2pc, Raft, Paxos, ...**).
+        In addition, I am an enthusiast from the world of programming languages ​​- the design of virtual machines, compilers and type systems. I do pet projects in Haskell, OCaml and Rust, have some experience with C#, Kotlin and Dart (Flutter). I've also done a ton of Python events as a speaker, and even co-organized one of **<a href="https://piterpy.com/events/8527">them</a>**. Some of my talks you can find at the bottom part of the page.
+
 education:
     - degree: MSc in Physics
       university: Saint-Petersburg State University
@@ -47,56 +45,57 @@ education:
         I was engaged in theoretical and numerical research of whisker nanocrystals and quantum dots of gallium arsenide.
         At the end of my master program, we have successfully published a paper, that includes some of the results obtained (see publications).
 experiences:
-    - role: Junior Researcher
-      time: 2008-2010
-      company: SPBU
-      details:
-    - role: Developer
-      time: 2010 - 2012
-      company: TransAsia
-      details:
-    - role: Developer
-      time: 2012 - 2015
-      company: Potisive Technologies
-      details:
-    - role: Senior Software Developer
-      time: 2015 - 2017
-      company: Positive Technologies
-      details:
-    - role: Lead Developer
-      time: 2017 - 2019
-      company: Positive Technologies
-      details:
     - role: Team Leader
       time: 2019 - 
       company: Positive Technologies
       details:
+        Keep working on MaxPatrol SIEM from the birds eye view. High level integrations, etc.
+    - role: Lead Developer
+      time: 2017 - 2019
+      company: Positive Technologies
+      details: |
+        Done a ton of work for the cutting-edge features of MaxPatrol SIEM.
+    - role: Senior Software Developer
+      time: 2015 - 2017
+      company: Positive Technologies
+      details: |
+        Started working on Positive Technologies SIEM, co-designed and developed initial version of the product.
+    - role: Developer
+      time: 2012 - 2015
+      company: Positive Technologies
+      details: |
+        Co-designed and co-developed the initial version of the MaxPatrols Audit and Pentest engines, which were (and still are) written in Python, that runs inside a custom CPython fork.
+    - role: Developer
+      time: 2010 - 2012
+      company: TransAsia
+      details: |
+        During this period I've been working as a fullstack developer (native JS + Django/Flask). As the result I've developed several gallery-like web sites, primarily oriented tawards digital artists.
+    - role: Junior Researcher
+      time: 2008-2010
+      company: SPBU
+      details: |
+        Messing with ultra expensive lab equipment while getting my masters degree.
 publications:
     title: Publications & Talks
     papers:
-      - title: Computer Simulation of the Structure and Raman Spectra of GaAs Polytypes
-        link: "https://ur.booksc.eu/dl/22103651/49f6e3"
-        authors: M. B. Smirnov, A. O. Koshkin, S. V. Karpov, B. V. Novikov, A. N. Smirnov, I. V. Shtrohm, G. E. Cirlin , A. D. Bouravleuv , and Yu. B. Samsonenko.
-
       - title: "Inside a PyPy JIT: is that even legal? (En)"
         link: "https://www.youtube.com/watch?v=sD2BrBRip2U&t=307s&ab_channel=PyConSG"
         conference: "PyCon APAC 2018"
-
-      - title: "Know and love your CPython in the name of the moon and great justice (Russian)"
+      - title: "Know and love your CPython in the name of the moon and great justice"
         link: "https://youtu.be/0_5_zEOo8kg"
         conference: "PyCon Russia 2016"
-
-      - title: "Know and love your PyObject, you're a programmer after all (Russian)"
+      - title: "Know and love your PyObject, you're a programmer after all"
         link: "https://youtu.be/pgrmGduJVrs"
         conference: "Wargaming Meetup 2015"
-
-      - title: "PyPy internal structure is extremely straight forward (nope) (Russian)"
+      - title: "PyPy internal structure is extremely straight forward (nope)"
         link: "https://youtu.be/6mlM7zxNkiE"
         conference: "PiterPy 2018"
-
-      - title: "Know and love your yield. Coroutines and generators beyond for loop (re-upload) (Russian)"
+      - title: "Know and love your yield. Coroutines and generators beyond for loop (re-upload)"
         link: "https://youtu.be/qkgFdFTo8rM"
         conference: "PiterPy 2014"
+      - title: Computer Simulation of the Structure and Raman Spectra of GaAs Polytypes
+        link: "https://ur.booksc.eu/dl/22103651/49f6e3"
+        authors: M. B. Smirnov, A. O. Koshkin, S. V. Karpov, B. V. Novikov, A. N. Smirnov, I. V. Shtrohm, G. E. Cirlin , A. D. Bouravleuv , and Yu. B. Samsonenko.
 skills:
     title: Buzzwords
     toolset:
