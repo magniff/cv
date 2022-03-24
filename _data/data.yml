@@ -34,8 +34,8 @@ sidebar:
 career-profile:
     title: WHOAMI
     summary: |
-        I currently work for **Positive Technologies** - one of the the market leaders in the area of information security. The product I am working on is **MaxPatrol SIEM** - a streaming, high load security events processing system - consists of dozens types of microservices, interconnected by the means of http/ws and AMQP queues. I have an extensive experience in organizing distributed systems and understand how consensus algorithms work (**2pc, Raft, Paxos, ...**).
-        In addition, I am an enthusiast from the world of programming languages ​​- the design of virtual machines, compilers and type systems. I do pet projects in Haskell, OCaml and Rust, have some experience with C#, Kotlin and Dart (Flutter). I've also done a ton of Python events as a speaker, and even co-organized one of **<a href="https://piterpy.com/events/8527">them</a>**. Some of my talks you can find at the bottom part of the page.
+        Nowdays I work for **Positive Technologies** - one of the the market leaders in the area of information security. The product I am working on is **MaxPatrol SIEM** - a streaming, high load security events processing system - consists of dozens types of microservices, interconnected by the means of http/ws and AMQP queues. I have an extensive experience in organizing distributed systems and understand how consensus algorithms work (**2pc, Raft, Paxos, ...**).
+        In addition, I am an enthusiast from the world of programming languages - the design of virtual machines, compilers and type systems. I do pet projects in Haskell, OCaml and Rust, have some experience with C#, Kotlin and Dart (Flutter). I've also done a ton of Python events as a speaker, and even co-organized one of **<a href="https://piterpy.com/events/8527">them</a>**. Some of my talks you can find at the bottom part of the page.
 
 education:
     - degree: MSc in Physics
@@ -64,7 +64,7 @@ experiences:
       time: 2012 - 2015
       company: Positive Technologies
       details: |
-        Co-designed and co-developed the initial version of the MaxPatrols Audit and Pentest engines, which were (and still are) written in Python, that runs inside a custom CPython fork.
+        Co-designed and co-developed the initial version of the MaxPatrol's Audit and Pentest engines, which were (and still are) written in Python, that runs inside a custom CPython version.
     - role: Developer
       time: 2010 - 2012
       company: TransAsia
@@ -74,7 +74,7 @@ experiences:
       time: 2008-2010
       company: SPBU
       details: |
-        Messing with ultra expensive lab equipment while getting my masters degree.
+        Messing around with ultra expensive lab equipment while getting my masters degree.
 publications:
     title: Publications & Talks
     papers:
