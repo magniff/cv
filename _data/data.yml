@@ -34,8 +34,10 @@ sidebar:
 career-profile:
     title: WHOAMI
     summary: |
-        I have an extensive experience in organizing distributed systems and understand how consensus algorithms work (**2pc, Raft, Paxos, ...**).
-        In addition, I am an enthusiast from the world of programming languages - the design of virtual machines, compilers and type systems. I do pet projects in Haskell, OCaml and Rust, have some experience with C#, Kotlin and Dart (Flutter). I've also done a ton of Python events as a speaker, and even co-organized one of **<a href="https://piterpy.com/events/8527">them</a>**. Some of my talks could be found at the bottom part of the page.
+        My expertise lies in managing distributed systems and I possess a good understanding of consensus algorithms such as 2pc, Raft, and Paxos.
+        Additionally, I am passionate about programming languages and enjoy exploring the development of virtual machines, compilers, and type systems.
+        I regularly work on personal projects using Haskell, OCaml, and Rust, while also having experience with C#, Kotlin, and Dart (Flutter).
+        I have spoken at numerous Python events and have even co-organized one of them. You can find some of my talks listed at the bottom of this page.
 
 education:
     - degree: MSc in Physics
@@ -46,7 +48,7 @@ education:
         At the end of my master program, we have successfully published a paper, that includes some of the results obtained (see publications).
 experiences:
     - role: Senior Software Developer
-      time: 2022 - 
+      time: 2022 -
       company: Assaia Apron AI
     - role: Team Leader
       time: 2019 - 2022
