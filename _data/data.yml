@@ -12,13 +12,13 @@ sidebar:
 
     # Sidebar links
     email: "tinysnippets@gmail.com"
-    phone: +7 962 6894 199
-    website: "lemmethink.xyz"
+    phone: +1 415 9395 719
+    website: lemmethink.xyz
     linkedin: magniff
     github: magniff
     telegram: magniff
     twitter: "@0xfabaceae"
-    stack-overflow: "3831764"
+    stack-overflow: 3831764
 
     languages:
       - idiom: English
@@ -32,12 +32,11 @@ sidebar:
       - item: Cooking
 
 career-profile:
-    title: WHOAMI
+    title: About me
     summary: |
-        My expertise lies in managing distributed systems and I possess a good understanding of consensus algorithms such as 2pc, Raft, and Paxos.
-        Additionally, I am passionate about programming languages and enjoy exploring the development of virtual machines, compilers, and type systems.
-        I regularly work on personal projects using Haskell, OCaml, and Rust, while also having experience with C#, Kotlin, and Dart (Flutter).
-        I have spoken at numerous Python events and have even co-organized one of them. You can find some of my talks listed at the bottom of this page.
+      I possess extensive experience in developing high-performance distributed applications using <b>Python</b> and <b>Rust</b>, with a solid comprehension of Service-oriented Architecture (SoA). <br><br>
+      My interests are primarily focused on distributed algorithms, including distributed consensus mechanisms such as <b>Paxos</b>. <br><br>
+      Additionally, I have a keen interest in <b>compiler theory, programming language design</b>, and have been an integral member of a team responsible for designing and implementing a suite of <b>Domain-specific Languages</b> (DSLs) utilized by information security professionals in a renowned security firm.
 
 education:
     - degree: MSc in Physics
@@ -81,7 +80,7 @@ experiences:
       details: |
         Messing around with ultra expensive lab equipment while getting my masters degree.
 publications:
-    title: Publications & Talks
+    title: Chosen Publications & Talks
     papers:
       - title: "Inside a PyPy JIT: is that even legal? (En)"
         link: "https://www.youtube.com/watch?v=sD2BrBRip2U&t=307s&ab_channel=PyConSG"
@@ -98,15 +97,11 @@ publications:
       - title: "Know and love your yield. Coroutines and generators beyond for loop (re-upload)"
         link: "https://youtu.be/qkgFdFTo8rM"
         conference: "PiterPy 2014"
-      - title: Computer Simulation of the Structure and Raman Spectra of GaAs Polytypes
-        link: "https://ur.booksc.eu/dl/22103651/49f6e3"
-        authors: M. B. Smirnov, A. O. Koshkin, S. V. Karpov, B. V. Novikov, A. N. Smirnov, I. V. Shtrohm, G. E. Cirlin , A. D. Bouravleuv , and Yu. B. Samsonenko.
 skills:
-    title: Buzzwords
+    title: Key skills
     toolset:
-      - name: Python
-      - name: Haskell
-      - name: OCaml
-      - name: Rust
-      - name: HTML / CSS / Javascript / Typescript / Elm / PureScript
-      - name: Linux / Docker / Kubernetes
+      - name: Extensive experience (<b>10+ years</b>) in constructing various distributed and not distributed projects using <b>Python</b>, including both synchronous and asynchronous programming techniques.
+      - name: Over the years, I have given several presentations on the inner workings of <b>Python</b>, demonstrating my profound comprehension of <b>CPython's</b> and <b>PyPy's</b> internal mechanics. </br> </br> "In the delve of <b>Python's</b> internals did I descend, so deep that were there an ancient evil to be awakened, surely it would have stirred from its slumber." (c) I am pretty sure that's Tolkien. No? Ok.
+      - name: I have gained valuable experience over the past two years in developing <b>Rust</b> projects, both at the low-level and application-level. My proficiency in <b>Rust</b> includes both synchronous and asynchronous programming paradigms.
+      - name: I possess extensive expertise in functional programming languages such as <b>Haskell</b>, <b>OCaml</b>, and <b>Elm</b>.
+      - name: Naturally, I am intimately familiar with the contemporary deployment stack, encompassing <b>Linux</b>, <b>Docker</b>, <b>Kubernetes</b>, and <b>GitLab</b>.
