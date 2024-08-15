@@ -99,4 +99,4 @@ skills:
       - name: A profound understanding of the Python language, with extensive exploration of CPython's internals and in-depth knowledge of the low-level workings of the runtime.
       - name: I have a solid understanding of high-performance video streaming pipelines using technologies like WebRTC and GStreamer.
       - name: I have a decent understanding of programming language design and implementation, having participated in the design and implementation of domain-specific languages for a top-notch security firm.
-      - name: I have extensive experience building service-oriented, event-driven systems powered by technologies like RabbitMQ, RMQ, Kafka, and more.
+      - name: I have extensive experience building service-oriented, event-driven systems powered by technologies like RabbitMQ, Kafka, and more.
