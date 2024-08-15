@@ -1,7 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
@@ -16,6 +12,7 @@ sidebar:
     website: lemmethink.xyz
     linkedin: magniff
     github: magniff
+    youtube: 0xfabaceae
     telegram: magniff
     twitter: "@0xfabaceae"
     stack-overflow: 3831764
@@ -26,17 +23,14 @@ sidebar:
       - idiom: Russian
         level: Native
 
-    interests:
-
 career-profile:
     title: About me
     summary: |
-      My name is <b>Aleksandr Koshkin</b>, nice to meet you! 🐱🐱🐱<br/><br/>
-      I'm super into building high-performance distributed apps using <b>Python</b> and <b>Rust</b>, that I've been doing for the last 10 years.<br/><br/>
-      My other passion is the <b>compiler theory and programming language design</b>. I've even been part of a team that created a bunch of Domain-specific Languages for infosec pros at a top-notch security firm. <br/><br/>
-      When it comes to my work, I like to keep things clean and scalable. But hey, I'm not afraid to get my hands dirty with some quick prototyping! Need me to whip up some Python code and slap a basic React UI on it? You got it! <br/><br/>
-      I'm also pretty fascinated by distributed consensus algorithms – the classics like <b>Raft</b>, and the newer cool kids on the block like <b>Tendermint</b> with their Byzantine fault-tolerant vibes.
+      My name is <b>Aleksandr Koshkin</b>, nice to meet you! 🐱🐱🐱
 
+      I've got more than a decade of experience as a backend and systems engineer, working with Python, Rust, and C to build a variety of systems.
+      I've also explored distributed systems and delved into compiler development and theory.
+      I'm really excited about tackling tough, open-ended challenges.
 education:
     - degree: MSc in Physics
       university: Saint-Petersburg State University
@@ -45,27 +39,34 @@ education:
         I was engaged in theoretical and numerical research of whisker nanocrystals and quantum dots of gallium arsenide.
         At the end of my master program, we have successfully published a paper, that includes some of the results obtained (see publications).
 experiences:
-    - role: Senior Software Developer
-      time: 2022 -
-      company: Assaia Apron AI
+    - role: Senior Systems Developer
+      time: 2023 -
+      company: <a href="http://www.aerodome.com">Aerodome</a>
+      details: |
+        I've helped design and develop a high-performance, highly concurrent solution based on Rust + WebRTC for a cutting-edge DFR company.
+    - role: Senior Backend Developer
+      time: 2022 - 2023
+      company: <a href="https://www.assaia.com/solutions/apron-ai">Assaia Apron AI</a>
+      details: |
+        I worked on a high-performance, Rust + GStreamer-based SOA system for a machine learning-driven apron assistance project.
     - role: Team Leader
       time: 2019 - 2022
-      company: Positive Technologies
+      company: <a href="https://www.ptsecurity.com/ww-en/">Positive Technologies</a>
       details:
         Keep working on MaxPatrol SIEM from the birds eye view. High level integrations, etc.
     - role: Lead Developer
       time: 2017 - 2019
-      company: Positive Technologies
+      company: <a href="https://www.ptsecurity.com/ww-en/">Positive Technologies</a>
       details: |
         Have a ton of work done for the cutting-edge features of MaxPatrol SIEM.
     - role: Senior Software Developer
       time: 2015 - 2017
-      company: Positive Technologies
+      company: <a href="https://www.ptsecurity.com/ww-en/">Positive Technologies</a>
       details: |
         Started working on Positive Technologies SIEM, co-designed and developed initial version of the product.
     - role: Developer
       time: 2012 - 2015
-      company: Positive Technologies
+      company: <a href="https://www.ptsecurity.com/ww-en/">Positive Technologies</a>
       details: |
         Co-designed and co-developed the initial version of the MaxPatrol's Audit and Pentest engines, which were (and still are) written in Python, that runs inside a custom CPython version.
     - role: Developer
@@ -73,11 +74,6 @@ experiences:
       company: TransAsia
       details: |
         During this period I've been working as a fullstack developer (native JS + Django/Flask). As the result I've developed several gallery-like web sites, primarily oriented tawards digital artists.
-    - role: Junior Researcher
-      time: 2008-2010
-      company: SPBU
-      details: |
-        Messing around with ultra expensive lab equipment while getting my masters degree.
 publications:
     title: Chosen Publications & Talks
     papers:
@@ -99,9 +95,8 @@ publications:
 skills:
     title: Key skills
     toolset:
-      - name: Extensive experience (<b>10+ years</b>) in constructing various distributed and not distributed projects using <b>Python</b>, including both synchronous and asynchronous programming techniques.
-      - name: Over the years, I have given several presentations on the inner workings of <b>Python</b>, demonstrating my profound comprehension of <b>CPython's</b> and <b>PyPy's</b> internal mechanics. </br> </br> "In the delve of <b>Python's</b> internals did I descend, so deep that were there an ancient evil to be awakened, surely it would have stirred from its slumber." (c) I am pretty sure that's Tolkien. No? Ok.
-      - name: I have gained valuable experience over the past two years in developing <b>Rust</b> projects, both at the low-level and application-level. My proficiency in <b>Rust</b> includes both synchronous and asynchronous programming paradigms.
-      - name: I possess extensive expertise in functional programming languages such as <b>Haskell</b>, <b>OCaml</b>, and <b>Elm</b>.
-      - name: I can write <b>Go</b> if I have to.
-      - name: Naturally, I am intimately familiar with the contemporary deployment stack, encompassing <b>Linux</b>, <b>Docker</b>, <b>Kubernetes</b>, and <b>GitLab</b>.
+      - name: I've spent four years developing both synchronous and asynchronous Rust code, ranging from small utilities to high-performance distributed systems.
+      - name: A profound understanding of the Python language, with extensive exploration of CPython's internals and in-depth knowledge of the low-level workings of the runtime.
+      - name: I have a solid understanding of high-performance video streaming pipelines using technologies like WebRTC and GStreamer.
+      - name: I have a decent understanding of programming language design and implementation, having participated in the design and implementation of domain-specific languages for a top-notch security firm.
+      - name: I have extensive experience building service-oriented, event-driven systems powered by technologies like RabbitMQ, RMQ, Kafka, and more.
